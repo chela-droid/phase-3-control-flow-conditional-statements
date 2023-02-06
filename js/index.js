@@ -38,8 +38,8 @@ function howsTheWeather(temperature) {
   all other numbers, just return the number itself.
 */
 function fizzbuzz(num) {
-  if (num % 3 === 0 && num % 5 === 0) {
-    return "FizzBuzz";
+     if (num % 3 === 0 && num % 5 === 0) {
+ return "FizzBuzz";
   } else if (num % 3 === 0) {
     return "Fizz";
   } else if (num % 5 === 0) {
